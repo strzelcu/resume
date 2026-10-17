@@ -1,0 +1,254 @@
+header:
+  # Profile information
+  avatar: github-avatar.jpg
+  email: mlody_analog3f@icloud.com
+  website: strzelcu.github.io
+  linkedin: tomaszstrzelecki
+  github: strzelcu
+  gitlab:
+  bitbucket:
+  twitter: # "@stevedoe"
+  stack-overflow: # Number/Username, e.g. 123456/alandoe
+  codewars:
+  goodreads: # Number-Username, e.g. 123456-alandoe
+
+summary: |
+  Software engineer specializing in full-stack development, with experience building
+  content platforms for global brands across various industries.
+  Passionate about problem-solving, teamwork, and getting things done.
+
+skills:
+  - category: Backend
+    tools:
+      - name: Java
+        level: 90%
+      - name: AEM
+        level: 80%
+      - name: Spring
+        level: 40%
+  - category: Frontend
+    tools:
+      - name: Angular
+        level: 35%
+      - name: React
+        level: 45%
+      - name: TypeScript
+        level: 70%
+      - name: JavaScript
+        level: 70%
+      - name: Node.js
+        level: 60%
+      - name: HTML/CSS/Sass/Less/Tailwind CSS
+        level: 60%
+  - category: others
+    tools:
+      - Code Review
+      - Git
+      - Unit Testing
+      - Docker
+      - Linux
+      - Figma
+      - Groovy
+      - MySQL
+      - Redis
+      - DynamoDB
+      - AWS
+      - GraphQL
+      - SonarQube
+      - SVN
+
+experiences:
+  - role: Full-Stack Developer
+    time: June 2025 - Present
+    company: Viessmann Climate Solutions
+    technologies:
+      - TypeScript
+      - Node.js
+      - Angular
+
+  - role: Software Engineer
+    subrole: Content Experience Platform
+    time: August 2024 - May 2025
+    company: VML ES on behalf of Magnetic Point
+    details: |
+      I developed and maintained a scalable Adobe Experience Manager platform for a global
+      beverage industry leader, streamlining content management and distribution.
+    technologies:
+      - Adobe Experience Manager
+      - Adobe Cloud Manager
+      - Java 8
+      - AWS
+      - TypeScript
+      - Node.js
+      - HTML
+      - CSS
+      - Sass
+      - Tailwind CSS
+      - React
+      - Redux
+      - Redux Toolkit
+      - Groovy
+      - Git
+      - GitHub
+      - GitHub Actions
+      - AI
+      - Cypress
+      - Jest
+      - Vi
+
+  - role: Software Engineer
+    subrole: Content Experience Platform
+    time: January 2023 - August 2024
+    company: VML ES on behalf of Magnetic Point
+    details: |
+      I developed and maintained an Adobe Experience Manager platform for a company in the medical sector,
+      supporting content distribution across 24 markets worldwide. I also integrated Algolia to provide
+      advanced search capabilities using a custom connector written in Java.
+    technologies:
+      - Adobe Experience Manager
+      - Adobe Cloud Manager
+      - Java 8
+      - OSGI
+      - JavaScript
+      - Node.js
+      - HTML
+      - CSS
+      - Sass
+      - Algolia
+      - Groovy
+      - Git
+      - GitHub
+      - Docker
+
+  - role: Software Engineer
+    subrole: Platform Management
+    time: March 2022 - December 2022
+    company: VML ES on behalf of Magnetic Point
+    details: |
+      I managed and maintained 10+ client platforms using Adobe Experience Manager, Java 8, JavaScript,
+      and Node.js. I developed and optimized frontend components with HTML, CSS, Sass, and Groovy while
+      ensuring platform content integrity, stability, and performance.
+    technologies:
+      - Adobe Experience Manager
+      - Java 8
+      - JavaScript
+      - Node.js
+      - HTML
+      - CSS
+      - Sass
+      - Groovy
+      - Maven
+      - Gradle
+      - Git
+      - GitHub
+      - Docker
+
+  - role: Java Application Developer
+    time: January 2019 - February 2022
+    company: Atos
+    details: |
+      I worked on a full-stack solution for a German public sector client, integrating frontend and backend
+      components with relational databases to create a scalable solution for a Kubernetes environment.
+    technologies:
+      - Java 11
+      - Spring 5
+      - Spring Data
+      - Hibernate
+      - RabbitMQ
+      - Oracle MySQL
+      - MSSQL
+      - Swagger
+      - REST
+      - Web Services
+      - XML
+      - Maven
+      - Git
+      - GitLab
+      - Elasticsearch
+      - JUnit
+      - Mockito
+      - Angular
+      - TypeScript
+      - RxJS
+      - HTML
+      - CSS
+      - Docker
+
+  - role: webMethods Support Engineer
+    time: June 2017 - December 2018
+    company: Atos
+    details: |
+      I worked with a client in the chemical industry, using a range of technologies, including
+      webMethods Integration Platform for enterprise integration, Grafana for data visualization
+      and monitoring, Bash and PowerShell for scripting and automation, Groovy for custom development,
+      SVN for version control, and Linux and Windows Server as operating systems.
+    technologies:
+      - webMethods Integration Platform
+      - Grafana
+      - Elasticsearch
+      - Bash
+      - PowerShell
+      - Groovy
+      - SVN
+      - Linux
+      - Windows Server
+
+  - role: Java Developer
+    subrole: Trainee
+    time: March 2017 - June 2017
+    company: Atos
+    details: |
+      As a trainee, I completed a Java training course at Altkom Academy. The course provided
+      a comprehensive overview of Java programming, covering topics such as object-oriented
+      programming, data structures, and algorithms. As part of the course, I also obtained
+      an Oracle certification.
+    technologies:
+      - Java 8
+      - Java EE
+      - Spring
+      - Hibernate
+
+education:
+  - degree: MSc in Computer Science
+    university: Opole University of Technology
+    time: 2017 - 2020
+  - degree: BEng in Computer Science
+    university: Opole University of Technology
+    time: 2012 - 2016
+
+personality:
+  - name: Team Player
+  - name: ADHD
+  - name: Hold-My-Beer attitude
+
+languages:
+  - idiom: Polish
+    level: Native
+  - idiom: English
+    level: Professional
+  - idiom: German
+    level: Newbie
+
+preferences:
+  - label: Work schedule
+    value: Full-time
+  - label: Employment type
+    value: B2B
+  - label: Engagement duration
+    value: Long-term
+  - label: Operating mode
+    value: Remote
+  - label: Hardware
+    value: MacBook
+
+interests:
+  - name: Family
+    link:
+  - name: Sport
+    link:
+  - name: Hiking
+    link:
+  - name: Reading
+    link:
+  - name: DIY
+    link:

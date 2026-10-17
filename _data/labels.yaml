@@ -1,0 +1,11 @@
+# In this file, you can override most of the sections titles
+
+career-profile: Summary # default: Career Profile
+personality: # default: Personality
+education: # default: Education
+experience: # default: Work Experience
+preferences: # default: Preferences
+technologies: Technologies # default: Technologies used
+interests: Free Time # default: Interests
+language: Languages # default: Language
+skills: # default: Skills &amp; Tools
