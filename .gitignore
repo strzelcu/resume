@@ -2,10 +2,9 @@ _site
 .sass-cache
 .jekyll-cache
 .jekyll-metadata
-vendor
+/vendor/
 *.gem
 .bundle
-Gemfile.lock
 
 # Created by https://www.toptal.com/developers/gitignore/api/intellij+iml
 # Edit at https://www.toptal.com/developers/gitignore?templates=intellij+iml

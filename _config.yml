@@ -33,10 +33,10 @@ sass:
   style: compressed
 
 # Build settings
-compress-site: yes
 
 encoding: "utf-8"
-compress_html:
-  clippings: all
-  ignore:
-    envs: development
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - strzelcu.github.io.gemspec

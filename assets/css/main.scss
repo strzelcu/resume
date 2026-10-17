@@ -1,6 +1,10 @@
 ---
 ---
-@charset "utf-8";
-
-@import "skins/{{ site.theme_skin | default: 'gray' }}"; // skin
-@import "default"; // main partials
+@use "skins/{{ site.theme_skin | default: 'gray' }}" as palette;
+@use "base" with (
+  $theme-color-primary: palette.$theme-color-primary,
+  $theme-text-color-primary: palette.$theme-text-color-primary,
+  $theme-text-color-secondary: palette.$theme-text-color-secondary,
+  $theme-text-color-light: palette.$theme-text-color-light,
+  $theme-bg-light: palette.$theme-bg-light
+);
