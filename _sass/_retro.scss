@@ -1,0 +1,160 @@
+// Warm paper, rounded lettering and sunset stripes inspired by 1970s print.
+:root {
+  color-scheme: light dark;
+  --retro-bg: #e8dcc4;
+  --retro-paper: #fff7e6;
+  --retro-ink: #432e24;
+  --retro-secondary: #655044;
+  --retro-muted: #756153;
+  --retro-accent: #9b431f;
+  --retro-line: #c4ab82;
+  --retro-header: #65402f;
+  --retro-cream: #fff3d5;
+  --retro-chip: #edddba;
+  --retro-orange: #d27138;
+  --retro-gold: #e6b850;
+  --retro-olive: #777b43;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --retro-bg: #1c1915;
+    --retro-paper: #29231d;
+    --retro-ink: #f5e7c9;
+    --retro-secondary: #ddccb0;
+    --retro-muted: #bca98c;
+    --retro-accent: #f2b475;
+    --retro-line: #756248;
+    --retro-header: #392a22;
+    --retro-cream: #fff3d5;
+    --retro-chip: #463a2b;
+    --retro-orange: #dc8650;
+    --retro-gold: #dfb45c;
+    --retro-olive: #a4a66c;
+  }
+}
+body {
+  background: var(--retro-bg);
+  color: var(--retro-ink);
+  font-family: 'DM Sans', sans-serif;
+  line-height: 1.65;
+}
+a { color: var(--retro-accent); }
+a:hover { color: var(--retro-ink); }
+a:focus-visible {
+  outline: 3px solid var(--retro-accent);
+  outline-offset: 4px;
+  border-radius: 2px;
+}
+.resume-wrapper-inner {
+  background: var(--retro-paper);
+  border: 1px solid var(--retro-line);
+  border-radius: 28px 28px 8px 8px;
+  overflow: hidden;
+  box-shadow: 10px 12px 0 var(--retro-line);
+}
+.resume-header {
+  background: var(--retro-header);
+  color: var(--retro-cream);
+  border-bottom: 18px solid var(--retro-orange);
+  position: relative;
+}
+.resume-header::after {
+  content: "";
+  position: absolute;
+  bottom: -18px;
+  left: 0;
+  width: 100%;
+  height: 18px;
+  background: linear-gradient(to bottom,
+    var(--retro-orange) 0 33.333%,
+    var(--retro-gold) 33.333% 66.666%,
+    var(--retro-olive) 66.666% 100%);
+}
+.resume-header .name,
+.resume-section-title {
+  font-family: 'Fraunces', Georgia, serif;
+  text-transform: none !important;
+  letter-spacing: -0.035em;
+}
+.resume-header .name {
+  font-size: clamp(2rem, 4vw, 2.8rem);
+  font-weight: 700;
+  line-height: 1.1;
+  color: var(--retro-cream);
+}
+.resume-header .title { color: var(--retro-gold); }
+.resume-header a { color: var(--retro-cream); }
+.resume-header a:hover { color: var(--retro-gold); }
+.resume-header a:focus-visible { outline-color: var(--retro-gold); }
+.resume-header .picture {
+  object-fit: cover;
+  filter: sepia(0.4);
+  border-radius: 0 0 50% 0;
+}
+.resume-social .fa-container {
+  background: var(--retro-gold);
+  color: var(--retro-header);
+  border-radius: 50%;
+}
+.resume-section-title {
+  color: var(--retro-accent);
+  font-size: 1.5rem;
+}
+.resume-section-title::after {
+  height: 3px;
+  background: var(--retro-line);
+  border-radius: 3px;
+}
+.resume-section-content, .resume-company-name {
+  color: var(--retro-secondary);
+}
+.resume-position-title, .resume-skills-cat, .resume-skill-name,
+.resume-degree, .resume-award-name, .resume-lang-name {
+  color: var(--retro-ink);
+}
+.resume-position-time, .resume-degree-time, .resume-award-icon {
+  color: var(--retro-muted);
+}
+.resume-timeline::before { background: var(--retro-line); }
+.resume-timeline-item::before {
+  border-color: var(--retro-accent);
+  background: var(--retro-paper);
+}
+.resume-progress { background: var(--retro-chip); border-radius: 1rem; }
+.theme-progress-bar-dark {
+  background: var(--retro-accent);
+  border-radius: 1rem;
+}
+.resume-body .badge {
+  background: var(--retro-chip) !important;
+  color: var(--retro-ink) !important;
+  border-radius: 1rem;
+  padding: 0.45em 0.8em;
+}
+.footer { color: var(--retro-secondary); }
+@media (max-width: 767.98px) {
+  .resume-wrapper-inner { border-radius: 0; box-shadow: none; }
+  .resume-header .picture { border-radius: 50%; border: 4px solid var(--retro-gold); }
+  .resume-body { padding: 1.5rem !important; }
+  .resume-header .primary-info, .resume-header .secondary-info { min-width: 0; }
+  .resume-header a { overflow-wrap: anywhere; }
+}
+@media print {
+  :root {
+    color-scheme: light;
+    --retro-bg: #fff;
+    --retro-paper: #fff;
+    --retro-ink: #222;
+    --retro-secondary: #333;
+    --retro-muted: #555;
+    --retro-accent: #713518;
+    --retro-line: #aaa;
+    --retro-header: #fff;
+    --retro-cream: #222;
+    --retro-gold: #65402f;
+    --retro-chip: #eee;
+  }
+  .resume-wrapper { padding: 0; }
+  .resume-wrapper-inner { border: 0; border-radius: 0; box-shadow: none; }
+  .resume-header .picture { filter: none; }
+}
