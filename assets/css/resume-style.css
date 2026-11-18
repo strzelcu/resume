@@ -114,7 +114,8 @@
 
   [data-resume-style="rock"] .resume-header .picture {
     border-radius: 0;
-    filter: grayscale(1) contrast(1.2);
+    content: url("../images/rock-avatar.jpg") / "";
+    filter: none;
   }
 
   [data-resume-style="rock"] .resume-social .fa-container,
