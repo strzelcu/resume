@@ -1,11 +1,13 @@
 (() => {
   const storageKey = 'resume-style';
   const root = document.documentElement;
+  const styles = ['retro', 'rock', 'business'];
   let style = 'retro';
 
   try {
-    if (localStorage.getItem(storageKey) === 'rock') {
-      style = 'rock';
+    const savedStyle = localStorage.getItem(storageKey);
+    if (styles.includes(savedStyle)) {
+      style = savedStyle;
     }
   } catch {
     // The picker still works when browser storage is unavailable.

@@ -153,3 +153,65 @@
     display: none;
   }
 }
+
+@media screen {
+  :root[data-resume-style="business"] {
+    color-scheme: light;
+    --retro-bg: #eaf0f5;
+    --retro-paper: #ffffff;
+    --retro-ink: #14243a;
+    --retro-secondary: #34455a;
+    --retro-muted: #52647b;
+    --retro-accent: #245a83;
+    --retro-line: #cbd7e3;
+    --retro-header: #152d47;
+    --retro-cream: #f5f9ff;
+    --retro-chip: #e9f0f7;
+    --retro-gold: #bfd9ef;
+  }
+
+  [data-resume-style="business"] .resume-wrapper-inner {
+    border-radius: 8px;
+    box-shadow: 0 12px 32px #152d471a;
+  }
+
+  [data-resume-style="business"] .resume-header {
+    border-bottom: 4px solid #4b82ac;
+  }
+
+  [data-resume-style="business"] .resume-header::after {
+    content: none;
+  }
+
+  [data-resume-style="business"] .resume-header .name,
+  [data-resume-style="business"] .resume-section-title {
+    font-family: 'DM Sans', system-ui, sans-serif;
+    letter-spacing: -0.02em;
+  }
+
+  [data-resume-style="business"] .resume-header .picture {
+    content: url("../images/business-avatar.jpg") / "";
+    border-radius: 0;
+    filter: none;
+  }
+
+  [data-resume-style="business"] .resume-section-title::after {
+    height: 1px;
+  }
+
+  [data-resume-style="business"] .resume-body .badge {
+    border-radius: 4px;
+  }
+}
+
+@media screen and (max-width: 767.98px) {
+  [data-resume-style="business"] .resume-wrapper-inner {
+    border-radius: 0;
+    box-shadow: none;
+  }
+
+  [data-resume-style="business"] .resume-header .picture {
+    border-radius: 6px;
+    border: 0;
+  }
+}
