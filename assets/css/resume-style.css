@@ -190,7 +190,7 @@
   }
 
   [data-resume-style="business"] .resume-header .picture {
-    content: url("../images/business-avatar.jpg") / "";
+    content: url("../images/business-avatar-modern.jpg") / "";
     border-radius: 0;
     filter: none;
   }
