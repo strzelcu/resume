@@ -7,6 +7,15 @@
 
 <body>
   <article class="resume-wrapper text-center position-relative">
+    <fieldset class="resume-style-picker" hidden>
+      <legend>Résumé style</legend>
+      <div class="resume-style-picker__options">
+        <input type="radio" id="resume-style-retro" name="resume-style" value="retro" checked>
+        <label for="resume-style-retro">’70s Retro</label>
+        <input type="radio" id="resume-style-rock" name="resume-style" value="rock">
+        <label for="resume-style-rock">Rock</label>
+      </div>
+    </fieldset>
     <div class="resume-wrapper-inner mx-auto text-start">
       {% include header.html %}
       <div class="resume-body p-5">
