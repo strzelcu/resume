@@ -215,3 +215,69 @@
     border: 0;
   }
 }
+
+@media screen {
+  :root[data-resume-style="dnb"] {
+    color-scheme: dark;
+    --retro-bg: #080f18;
+    --retro-paper: #101b28;
+    --retro-ink: #f1f9ff;
+    --retro-secondary: #c3d5e3;
+    --retro-muted: #9db3c6;
+    --retro-accent: #57e5ef;
+    --retro-line: #365367;
+    --retro-header: #0b222b;
+    --retro-cream: #f1f9ff;
+    --retro-chip: #20364b;
+    --retro-gold: #cefb72;
+  }
+
+  [data-resume-style="dnb"] .resume-wrapper-inner {
+    border-radius: 4px;
+    box-shadow: 0 12px 32px #0005;
+  }
+
+  [data-resume-style="dnb"] .resume-header {
+    border-bottom: 5px solid #57e5ef;
+    background: repeating-linear-gradient(90deg, #57e5ef12 0 1px, transparent 1px 24px),
+      linear-gradient(115deg, #0b222b, #152341 75%, #243b27);
+  }
+
+  [data-resume-style="dnb"] .resume-header::after {
+    content: none;
+  }
+
+  [data-resume-style="dnb"] .resume-header .name,
+  [data-resume-style="dnb"] .resume-section-title {
+    font-family: ui-monospace, monospace;
+    letter-spacing: -0.04em;
+  }
+
+  [data-resume-style="dnb"] .resume-header .picture {
+    content: url("../images/dnb-avatar.jpg") / "";
+    border-radius: 0;
+    filter: none;
+  }
+
+  [data-resume-style="dnb"] .resume-section-title::after {
+    height: 2px;
+    background: linear-gradient(90deg, #cefb72 0 2rem, #57e5ef 2rem 4rem, var(--retro-line) 4rem);
+  }
+
+  [data-resume-style="dnb"] .resume-body .badge,
+  [data-resume-style="dnb"] .resume-progress,
+  [data-resume-style="dnb"] .theme-progress-bar-dark {
+    border-radius: 2px;
+  }
+}
+
+@media screen and (max-width: 767.98px) {
+  [data-resume-style="dnb"] .resume-wrapper-inner {
+    border-radius: 0;
+    box-shadow: none;
+  }
+
+  [data-resume-style="dnb"] .resume-header .picture {
+    border-width: 2px;
+  }
+}
