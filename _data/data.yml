@@ -61,10 +61,47 @@ experiences:
   - role: Full-Stack Developer
     time: June 2025 - Present
     company: Viessmann Climate Solutions
-    technologies:
-      - TypeScript
-      - Node.js
-      - Angular
+    technology_groups:
+      - label: Languages
+        items:
+          - TypeScript
+          - JavaScript
+          - Bash
+          - Python
+      - label: Runtime and frameworks
+        items:
+          - Node.js
+          - Ts.ED
+          - Angular
+      - label: Database
+        items:
+          - MongoDB
+      - label: Testing
+        items:
+          - Playwright
+          - Gherkin
+      - label: Observability
+        items:
+          - OpenTelemetry
+      - label: Version control and CI/CD
+        items:
+          - Git
+          - Bitbucket
+          - pnpm
+          - Nexus
+          - Jenkins
+      - label: Project tools
+        items:
+          - Jira
+          - Confluence
+          - Slack API
+      - label: AI and developer tooling
+        items:
+          - GitHub Copilot
+          - VS Code
+          - MCP (Model Context Protocol)
+          - APM (agent package manager)
+          - LLM agents
 
   - role: Software Engineer
     subrole: Content Experience Platform

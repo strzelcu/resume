@@ -37,8 +37,18 @@
                     </ul>
                     {% endif %}
                     {% endif %}
-                    {% if experience.technologies %}
+                    {% if experience.technology_groups or experience.technologies %}
                     <h4 class="resume-timeline-item-desc-heading fw-bold">{{ site.data.labels.technologies | default: "Technologies used" }}:</h4>
+                    {% if experience.technology_groups %}
+                    <dl class="mb-0">
+                        {% for group in experience.technology_groups %}
+                        <div class="mb-2">
+                            <dt class="d-inline">{{ group.label | escape }}:</dt>
+                            <dd class="d-inline mb-0">{{ group.items | join: ", " | escape }}</dd>
+                        </div>
+                        {% endfor %}
+                    </dl>
+                    {% else %}
                     <ul class="list-inline">
                         {% for technology in experience.technologies %}
                         <li class="list-inline-item">
@@ -46,6 +56,7 @@
                         </li>
                         {% endfor %}
                     </ul>
+                    {% endif %}
                     {% endif %}
                 </div>
                 <!--//resume-timeline-item-desc-->
