@@ -42,20 +42,36 @@ skills:
         level: 60%
   - category: others
     tools:
-      - Code Review
       - Git
-      - Unit Testing
       - Docker
       - Linux
       - Figma
+      - Zeplin
       - Groovy
       - MySQL
       - Redis
       - DynamoDB
       - AWS
       - GraphQL
-      - SonarQube
-      - SVN
+      - Bash
+      - Python
+      - Ts.ED
+      - MongoDB
+      - Playwright
+      - Gherkin
+      - OpenTelemetry
+      - Bitbucket
+      - pnpm
+      - Nexus
+      - Jenkins
+      - Jira
+      - Confluence
+      - Slack API
+      - GitHub Copilot
+      - VS Code
+      - MCP
+      - APM
+      - LLM agents
 
 experiences:
   - role: Full-Stack Developer
