@@ -72,7 +72,6 @@ experiences:
     technologies:
       - TypeScript
       - JavaScript
-      - Bash
       - Python
       - Node.js
       - Ts.ED
@@ -87,7 +86,6 @@ experiences:
       - Jenkins
       - Jira
       - Confluence
-      - Slack API
       - GitHub Copilot
       - VS Code
       - MCP
