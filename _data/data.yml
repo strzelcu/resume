@@ -82,8 +82,8 @@ experiences:
       - Slack API
       - GitHub Copilot
       - VS Code
-      - MCP (Model Context Protocol)
-      - APM (agent package manager)
+      - MCP
+      - APM
       - LLM agents
 
   - role: Software Engineer
