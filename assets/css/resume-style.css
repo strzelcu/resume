@@ -281,3 +281,70 @@
     border-width: 2px;
   }
 }
+
+@media screen {
+  :root[data-resume-style="hiphop"] {
+    color-scheme: light;
+    --retro-bg: #c8c3ab;
+    --retro-paper: #f3eedc;
+    --retro-ink: #26271c;
+    --retro-secondary: #424338;
+    --retro-muted: #57564a;
+    --retro-accent: #61411e;
+    --retro-line: #a49b76;
+    --retro-header: #272b20;
+    --retro-cream: #fff6df;
+    --retro-chip: #e3d9bc;
+    --retro-gold: #eec875;
+  }
+
+  [data-resume-style="hiphop"] .resume-wrapper-inner {
+    border-radius: 2px;
+    box-shadow: 7px 9px 0 #4b4a36;
+  }
+
+  [data-resume-style="hiphop"] .resume-header {
+    border-bottom: 6px solid var(--retro-gold);
+    background: repeating-linear-gradient(135deg, #ffffff09 0 1px, transparent 1px 8px),
+      linear-gradient(120deg, #252a1f, #43422a);
+  }
+
+  [data-resume-style="hiphop"] .resume-header::after {
+    content: none;
+  }
+
+  [data-resume-style="hiphop"] .resume-header .name,
+  [data-resume-style="hiphop"] .resume-section-title {
+    font-family: Impact, 'Arial Narrow', system-ui, sans-serif;
+    font-weight: 900;
+    text-transform: uppercase !important;
+    letter-spacing: 0.02em;
+  }
+
+  [data-resume-style="hiphop"] .resume-header .picture {
+    content: url("../images/hiphop-avatar.jpg") / "";
+    border-radius: 0;
+    filter: none;
+  }
+
+  [data-resume-style="hiphop"] .resume-section-title::after {
+    background: repeating-linear-gradient(90deg, var(--retro-line) 0 9px, transparent 9px 12px);
+  }
+
+  [data-resume-style="hiphop"] .resume-body .badge,
+  [data-resume-style="hiphop"] .resume-progress,
+  [data-resume-style="hiphop"] .theme-progress-bar-dark {
+    border-radius: 2px;
+  }
+}
+
+@media screen and (max-width: 767.98px) {
+  [data-resume-style="hiphop"] .resume-wrapper-inner {
+    border-radius: 0;
+    box-shadow: none;
+  }
+
+  [data-resume-style="hiphop"] .resume-header .picture {
+    border-width: 2px;
+  }
+}

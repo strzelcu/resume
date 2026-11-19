@@ -15,7 +15,7 @@ Read the current versions of these files before editing:
 - `_includes/head.html` loads the picker assets using Jekyll's `relative_url` filter and version queries.
 - `assets/images/` contains the portraits. Use the current portrait selected by the relevant theme's CSS as a reference when appropriate.
 
-The current picker order is 🪩 ’70s Retro, 🎸 Rock, 🔊 Drum & Bass, 💼 Business. Follow the position requested by the user and preserve the relative order of the other themes. Keep Retro as the default and fallback unless asked to change it.
+The current picker order is 🪩 ’70s Retro, 🎸 Rock, 🔊 Drum & Bass, 🎤 Hip-Hop ’99, 💼 Business. Follow the position requested by the user and preserve the relative order of the other themes. Keep Retro as the default and fallback unless asked to change it.
 
 ## Implement the theme
 
