@@ -37,12 +37,8 @@
                     </ul>
                     {% endif %}
                     {% endif %}
-                    {% if experience.technologies_markdown or experience.technologies %}
+                    {% if experience.technologies %}
                     <h4 class="resume-timeline-item-desc-heading fw-bold">{{ site.data.labels.technologies | default: "Technologies used" }}:</h4>
-                    {% if experience.technologies_markdown %}
-                    {% capture technologies_markdown %}{% include {{ experience.technologies_markdown }} %}{% endcapture %}
-                    {{ technologies_markdown | markdownify }}
-                    {% else %}
                     <ul class="list-inline">
                         {% for technology in experience.technologies %}
                         <li class="list-inline-item">
@@ -50,7 +46,6 @@
                         </li>
                         {% endfor %}
                     </ul>
-                    {% endif %}
                     {% endif %}
                 </div>
                 <!--//resume-timeline-item-desc-->

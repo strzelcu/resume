@@ -61,7 +61,10 @@ experiences:
   - role: Full-Stack Developer
     time: June 2025 - Present
     company: Viessmann Climate Solutions
-    technologies_markdown: viessmann-technologies.md
+    technologies:
+      - TypeScript
+      - Node.js
+      - Angular
 
   - role: Software Engineer
     subrole: Content Experience Platform
