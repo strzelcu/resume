@@ -63,8 +63,28 @@ experiences:
     company: Viessmann Climate Solutions
     technologies:
       - TypeScript
+      - JavaScript
+      - Bash
+      - Python
       - Node.js
-      - Angular
+      - Ts.ED
+      - MongoDB
+      - Playwright
+      - Gherkin
+      - OpenTelemetry
+      - Git
+      - Bitbucket
+      - pnpm
+      - Nexus
+      - Jenkins
+      - Jira
+      - Confluence
+      - Slack API
+      - GitHub Copilot
+      - VS Code
+      - MCP (Model Context Protocol)
+      - APM (agent package manager)
+      - LLM agents
 
   - role: Software Engineer
     subrole: Content Experience Platform
