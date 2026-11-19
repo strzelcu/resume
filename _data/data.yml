@@ -69,6 +69,8 @@ experiences:
   - role: Full-Stack Developer
     time: June 2025 - Present
     company: Viessmann Climate Solutions
+    details: |
+      I build reusable AI skills and orchestrate specialized agents to automate routine engineering tasks, from implementation through release. I use AI-assisted full-stack development to build a sales platform with algorithms tailored to the needs of HVAC clients.
     technologies:
       - TypeScript
       - JavaScript
