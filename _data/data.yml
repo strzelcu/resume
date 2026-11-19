@@ -29,17 +29,15 @@ skills:
   - category: Frontend
     tools:
       - name: Angular
-        level: 35%
-      - name: React
-        level: 45%
+        level: 50%
       - name: TypeScript
-        level: 70%
+        level: 85%
       - name: JavaScript
-        level: 70%
+        level: 85%
       - name: Node.js
-        level: 60%
+        level: 75%
       - name: HTML/CSS/Sass/Less/Tailwind CSS
-        level: 60%
+        level: 75%
   - category: others
     tools:
       - Git
