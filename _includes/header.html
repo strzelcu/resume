@@ -7,7 +7,7 @@
                 <h1 class="name mt-0 mb-1">{{ site.author }}</h1>
                 <div class="title {% if header.subtitle and header.subtitle != empty %}mb-0{% else %}mb-3{% endif %}">{{ site.tagline }}</div>
                 {% if header.subtitle and header.subtitle != empty %}
-                <p class="small mb-3">{{ header.subtitle | escape }}</p>
+                <p class="small mb-3" style="margin-top: -0.375rem;">{{ header.subtitle | escape }}</p>
                 {% endif %}
                 <ul id="contact-info" class="list-unstyled">
                     <li class="mb-2"><a href="mailto:{{ header.email }}"><i class="fa-regular fa-envelope fa-fw me-2"
