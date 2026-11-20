@@ -5,7 +5,10 @@
         <div class="flex-grow-1 p-4 d-flex flex-column flex-md-row mx-auto mx-lg-0">
             <div class="primary-info">
                 <h1 class="name mt-0 mb-1">{{ site.author }}</h1>
-                <div class="title mb-3">{{ site.tagline }}</div>
+                <div class="title {% if header.subtitle and header.subtitle != empty %}mb-1{% else %}mb-3{% endif %}">{{ site.tagline }}</div>
+                {% if header.subtitle and header.subtitle != empty %}
+                <p class="small mb-3">{{ header.subtitle | escape }}</p>
+                {% endif %}
                 <ul id="contact-info" class="list-unstyled">
                     <li class="mb-2"><a href="mailto:{{ header.email }}"><i class="fa-regular fa-envelope fa-fw me-2"
                                 data-fa-transform="grow-3"></i>{{ header.email }}</a></li>
