@@ -2,7 +2,7 @@
   const storageKey = 'resume-style';
   const root = document.documentElement;
   const styles = ['retro', 'hiphop', 'rock', 'dnb', 'sport', 'business'];
-  let style = 'retro';
+  let style = 'business';
 
   try {
     const savedStyle = localStorage.getItem(storageKey);
