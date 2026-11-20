@@ -1,7 +1,7 @@
 (() => {
   const storageKey = 'resume-style';
   const root = document.documentElement;
-  const styles = ['retro', 'hiphop', 'rock', 'dnb', 'business'];
+  const styles = ['retro', 'hiphop', 'rock', 'dnb', 'sport', 'business'];
   let style = 'retro';
 
   try {

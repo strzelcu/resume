@@ -348,3 +348,64 @@
     border-width: 2px;
   }
 }
+
+@media screen {
+  :root[data-resume-style="sport"] {
+    color-scheme: light;
+    --retro-bg: #e6edf6;
+    --retro-paper: #fff;
+    --retro-ink: #13233b;
+    --retro-secondary: #35475d;
+    --retro-muted: #53677f;
+    --retro-accent: #174caa;
+    --retro-line: #bdcfe5;
+    --retro-header: #12316a;
+    --retro-cream: #fff;
+    --retro-chip: #e4edfb;
+    --retro-gold: #d8f45d;
+  }
+
+  [data-resume-style="sport"] .resume-wrapper-inner {
+    border-radius: 12px;
+    box-shadow: 0 12px 28px #12316a26;
+  }
+
+  [data-resume-style="sport"] .resume-header {
+    border-bottom: 5px solid var(--retro-gold);
+    background: repeating-linear-gradient(125deg, #ffffff12 0 1px, transparent 1px 20px),
+      linear-gradient(120deg, #12316a, #174caa);
+  }
+
+  [data-resume-style="sport"] .resume-header::after {
+    content: none;
+  }
+
+  [data-resume-style="sport"] .resume-header .name,
+  [data-resume-style="sport"] .resume-section-title {
+    font-family: 'DM Sans', system-ui, sans-serif;
+    font-style: italic;
+    font-weight: 700;
+  }
+
+  [data-resume-style="sport"] .resume-header .picture {
+    content: url("../images/sport-avatar.jpg") / "";
+    border-radius: 0;
+    filter: none;
+  }
+
+  [data-resume-style="sport"] .resume-section-title::after {
+    background: linear-gradient(90deg, var(--retro-accent) 0 3rem, var(--retro-line) 3rem);
+  }
+}
+
+@media screen and (max-width: 767.98px) {
+  [data-resume-style="sport"] .resume-wrapper-inner {
+    border-radius: 0;
+    box-shadow: none;
+  }
+
+  [data-resume-style="sport"] .resume-header .picture {
+    border-radius: 8px;
+    border-width: 2px;
+  }
+}
